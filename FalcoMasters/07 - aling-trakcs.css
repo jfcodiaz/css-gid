@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 20px;
+
+    /* Vertical */
+    /* start, end, center, space-between, space-around, space-evenly */
+    justify-content: space-evenly;
+    /* Horizontal */
+    /* start, end, center, space-between, space-around, space-evenly */
+    align-content: space-evenly;
+}
